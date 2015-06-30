@@ -1,5 +1,5 @@
-ruby-jquery-scrollto-rails (1.4.3+dfsg-1) unstable; urgency=low
+ruby-jquery-scrollto-rails (1.4.3+dfsg-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #790662)
 
- -- Balasankar C <balasankarc@autistici.org>  Tue, 30 Jun 2015 22:11:42 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Tue, 30 Jun 2015 20:54:37 +0530
