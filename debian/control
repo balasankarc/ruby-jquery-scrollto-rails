@@ -1,0 +1,15 @@
+Source: ruby-jquery-scrollto-rails
+Section: unknown
+Priority: optional
+Maintainer: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/ruby-jquery-scrollto-rails.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/ruby-jquery-scrollto-rails.git;a=summary
+
+Package: ruby-jquery-scrollto-rails
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
