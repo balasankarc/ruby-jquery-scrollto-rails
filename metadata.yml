@@ -1,0 +1,76 @@
+--- !ruby/object:Gem::Specification
+name: jquery-scrollto-rails
+version: !ruby/object:Gem::Version
+  version: 1.4.3
+platform: ruby
+authors:
+- John Colvin
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2013-09-24 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: railties
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - '>'
+      - !ruby/object:Gem::Version
+        version: '3.1'
+    - - <
+      - !ruby/object:Gem::Version
+        version: '5.0'
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - '>'
+      - !ruby/object:Gem::Version
+        version: '3.1'
+    - - <
+      - !ruby/object:Gem::Version
+        version: '5.0'
+description: This provides jQUery scrollTo for your Rails 3 application
+email:
+- colvin.john@gmail.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- .gitignore
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- jquery-scrollto-rails.gemspec
+- lib/jquery-scrollto-rails.rb
+- lib/jquery-scrollto-rails/rails.rb
+- lib/jquery-scrollto-rails/rails/engine.rb
+- lib/jquery-scrollto-rails/rails/version.rb
+- vendor/assets/javascripts/jquery.scrollTo.js
+- vendor/assets/javascripts/jquery.scrollTo.min.js
+homepage: https://github.com/JohnColvin/jquery-scrollto-rails
+licenses: []
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: jquery-scrollto-rails
+rubygems_version: 2.0.2
+signing_key: 
+specification_version: 4
+summary: Use jQuery scrollTo with Rails 3
+test_files: []
+has_rdoc: 
