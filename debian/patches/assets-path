@@ -1,0 +1,16 @@
+Description: Change path of vendor javascript
+ Change root path to look for embedded vendor javascripts
+Author: Balasankar C <balasankarc@autistici.org>
+Last-Update: 2015-06-30
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/lib/jquery-scrollto-rails/rails/engine.rb
++++ b/lib/jquery-scrollto-rails/rails/engine.rb
+@@ -1,6 +1,7 @@
+ module JqueryScrollto
+   module Rails
+     class Engine < ::Rails::Engine
++        config.root = '/usr/share/ruby-jquery-scrollto-rails'
+     end
+   end
+ end
